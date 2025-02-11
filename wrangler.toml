@@ -39,18 +39,18 @@ RCLONE_DOWNLOAD = "<true, if you are using the Worker to proxy downloads for rcl
 #
 # Note that HTTP headers are not case-sensitive. "host" will match "host",
 # "Host" and "HOST".
-#ALLOWED_HEADERS = [
-#    "content-type",
-#    "date",
-#    "host",
-#    "if-match",
-#    "if-modified-since",
-#    "if-none-match",
-#    "if-unmodified-since",
-#    "range",
-#    "x-amz-content-sha256",
-#    "x-amz-date",
-#    "x-amz-server-side-encryption-customer-algorithm",
-#    "x-amz-server-side-encryption-customer-key",
-#    "x-amz-server-side-encryption-customer-key-md5"
-#]
+ALLOWED_HEADERS = [
+    "content-type",
+    "date",
+    "host",
+    "if-match",
+    "if-modified-since",
+    "if-none-match",
+    "if-unmodified-since",
+    "range",
+    "x-amz-content-sha256",
+    "x-amz-date",
+    "x-amz-server-side-encryption-customer-algorithm",
+    "x-amz-server-side-encryption-customer-key",
+    "x-amz-server-side-encryption-customer-key-md5"
+]
